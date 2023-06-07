@@ -1,8 +1,10 @@
 package main
 
-import "syslabtec/sample/app"
+import (
+	"syslabtec/sample/server"
+)
 
 func main() {
 
-	app.StartApp()
+	server.StartServer()
 }
