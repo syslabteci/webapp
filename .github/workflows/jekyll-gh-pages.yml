@@ -24,8 +24,7 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on:
-      group: Default
+    runs-on: self-hosted
     steps:
       - name: Checkout
         uses: actions/checkout@v3
